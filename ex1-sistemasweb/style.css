@@ -1,0 +1,62 @@
+html,
+body,
+.body {
+    background-color: #e1eaf2;
+}
+
+nav {
+    background-color: #32639f;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+}
+
+body {}
+
+.container {
+    background-color: #e1eaf2;
+    display: flex;
+}
+
+.header {
+    display: inline;
+    width: 100%;
+}
+
+.foto-topo {
+    width: 10%;
+    padding-top: 10px;
+    position: relative;
+}
+
+h1 {
+    color: #1572a1;
+}
+
+.topo {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+nav li {
+    cursor: pointer;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+}
+
+.body {
+    background-color: white;
+    display: grid;
+    margin: 0%;
+    padding: 20px 0px 0px 15px;
+    width: 100%;
+}
