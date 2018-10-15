@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Busca Wikipedia</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+    <h1>Faça sua busca no Wikipedia!</h1>
+
+    <img class="logo" src="wikipedialogo.png">
+
+    <div class="pesquisa">
+        <div class="input">
+            <input id="myInput" type="search" class="input-pesquisa" autofocus />
+            <button class="pesquisa-btn" onclick="pesquisar()"><img src="search.jpeg" alt="Icone" class="icone-busca"></button>
+        </div>
+    </div>
+
+    <div class="resultado" id="resultado">
+        <h1>Resultado</h1>
+        <h3><span id="response-titulo"></span></h3>
+        <span id="response-conteudo"></span>
+
+        <h3>Imagem</h3>
+        <span id="response-imagem"></span>
+
+        <h3>Link de referência:</h3>
+        <p> <span id="response-link"></span></p>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
